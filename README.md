@@ -43,6 +43,8 @@
 
 ### #3.5
 
+참고문서 : https://reactjs.org/docs/events.html
+
 **📗input의 event를 type하는 방법**
 
 - `React.FormEvent<HTMLInputElement>`
@@ -55,9 +57,10 @@
 
 ### #3.6
 
+참고문서 : https://styled-components.com/docs/api#typescript
+
 **📗Styled-Component의 theme을 type하는 방법**
 
-- 참고문서 : https://styled-components.com/docs/api#typescript
 - `npm i @types/styled-components`
 - src 안에 declaration 파일 만들기 → `styled.d.ts`
   ```ts
