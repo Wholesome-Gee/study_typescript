@@ -20,3 +20,10 @@
 - `npm i --save-dev @types/styled-components`
 
 ---
+
+### #3.2
+
+**📗Component의 props를 type하는 방법**  
+**📗Styled-Component의 props를 type하는 방법**
+
+---
