@@ -52,3 +52,39 @@
 - `React.FormEvent<HTMLFormElement>`
 
 ---
+
+### #3.6
+
+**📗Styled-Component의 theme을 type하는 방법**
+
+- 참고문서 : https://styled-components.com/docs/api#typescript
+- `npm i @types/styled-components`
+- src 안에 declaration 파일 만들기 → `styled.d.ts`
+  ```ts
+  import "styled-components";
+  declare module "styled-components" {
+    export interface DefaultTheme {
+      // theme의 interface를 정의 하는곳
+      textColor: string;
+      backgroundColor: string;
+      buttonColor: string;
+    }
+  }
+  ```
+- src안에 theme파일 만들기 → `theme.ts`
+  ```ts
+  import { DefaultTheme } from "styled-components/dist/types";
+  // theme을 정의하는 곳
+  const lightTheme: DefaultTheme = {
+    backgroundColor: "white",
+    textColor: "black",
+    buttonColor: "tomato",
+  };
+  const darkTheme: DefaultTheme = {
+    backgroundColor: "black",
+    textColor: "white",
+    buttonColor: "teal",
+  };
+  export { lightTheme, darkTheme };
+  ```
+- index.tsx에서 `<App>`을 `<ThemeProvider theme="lightTheme">`로 감싸기
