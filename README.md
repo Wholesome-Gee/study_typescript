@@ -23,7 +23,14 @@
 
 ### #3.2
 
-**📗Component의 props를 type하는 방법**  
+**📗React Component의 props를 type하는 방법**  
 **📗Styled-Component의 props를 type하는 방법**
+
+---
+
+### #3.3
+
+**📗Optional Type을 설정하는 방법**
+**📗React Component의 props에 기본값을 설정하는 2가지 방법**
 
 ---
