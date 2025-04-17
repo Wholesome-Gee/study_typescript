@@ -34,3 +34,9 @@
 **📗React Component의 props에 기본값을 설정하는 2가지 방법**
 
 ---
+
+### #3.4
+
+**📗useState를 type하는 방법**
+
+---
