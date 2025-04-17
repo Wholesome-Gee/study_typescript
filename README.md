@@ -30,7 +30,7 @@
 
 ### #3.3
 
-**📗Optional Type을 설정하는 방법**
+**📗Optional Type을 설정하는 방법**  
 **📗React Component의 props에 기본값을 설정하는 2가지 방법**
 
 ---
@@ -38,5 +38,17 @@
 ### #3.4
 
 **📗useState를 type하는 방법**
+
+---
+
+### #3.5
+
+**📗input의 event를 type하는 방법**
+
+- `React.FormEvent<HTMLInputElement>`
+
+**📗form의 event를 type하는 방법**
+
+- `React.FormEvent<HTMLFormElement>`
 
 ---
